@@ -1,0 +1,6 @@
+body {
+  text-align: center;
+  background: no-repeat center fixed url("./Images/travel.jpg");
+  background-color: lawngreen;
+  background-size: 25%;
+}
