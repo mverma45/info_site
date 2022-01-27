@@ -57,6 +57,10 @@ h1 {
 .park {
   margin-left: 1em;
 }
+
+.parade-details {
+  list-style-type: none;
+}
 /* footer */
 
 .parade-footer,
@@ -68,4 +72,14 @@ a {
   padding: 1em 2em 2em 3em;
   list-style-type: none;
   text-decoration: none;
+}
+
+/* screen sizes */
+
+@media only screen and (max-width: 1000) {
+  .title::before {
+    height: 150px;
+    width: 180px;
+    opacity: 0.7;
+  }
 }
