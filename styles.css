@@ -59,11 +59,13 @@ h1 {
 }
 /* footer */
 
-.parade-footer {
+.parade-footer,
+a {
   font-size: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1em 2em 2em 3em;
   list-style-type: none;
+  text-decoration: none;
 }
