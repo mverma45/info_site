@@ -79,4 +79,10 @@ h1 {
   h1 {
     font-size: 1.5em;
   }
+
+  @media (width < 400px) {
+    h1 {
+      font-size: 1em;
+    }
+  }
 }
